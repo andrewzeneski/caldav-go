@@ -2,13 +2,14 @@ package icalendar
 
 import (
 	"fmt"
-	"github.com/taviti/caldav-go/icalendar/properties"
-	"github.com/taviti/caldav-go/utils"
 	"log"
 	"reflect"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/andrewzeneski/caldav-go/icalendar/properties"
+	"github.com/andrewzeneski/caldav-go/utils"
 )
 
 var _ = log.Print

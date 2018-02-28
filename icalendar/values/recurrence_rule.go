@@ -2,12 +2,13 @@ package values
 
 import (
 	"fmt"
-	"github.com/taviti/caldav-go/icalendar/properties"
-	"github.com/taviti/caldav-go/utils"
 	"log"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/andrewzeneski/caldav-go/icalendar/properties"
+	"github.com/andrewzeneski/caldav-go/utils"
 )
 
 // The recurrence rule, if specified, is used in computing the recurrence set. The recurrence set is the complete set

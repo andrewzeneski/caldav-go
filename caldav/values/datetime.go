@@ -3,8 +3,9 @@ package values
 import (
 	"encoding/xml"
 	"errors"
-	"github.com/taviti/caldav-go/icalendar/values"
 	"time"
+
+	"github.com/andrewzeneski/caldav-go/icalendar/values"
 )
 
 // a representation of a date and time for iCalendar

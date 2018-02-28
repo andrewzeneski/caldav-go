@@ -1,9 +1,10 @@
 package http
 
 import (
-	"github.com/taviti/caldav-go/utils"
 	"io"
 	"net/http"
+
+	"github.com/andrewzeneski/caldav-go/utils"
 )
 
 // an HTTP request object

@@ -2,10 +2,11 @@ package webdav
 
 import (
 	"fmt"
-	"github.com/taviti/caldav-go/http"
-	"github.com/taviti/caldav-go/utils"
-	"github.com/taviti/caldav-go/webdav/entities"
 	nhttp "net/http"
+
+	"github.com/andrewzeneski/caldav-go/http"
+	"github.com/andrewzeneski/caldav-go/utils"
+	"github.com/andrewzeneski/caldav-go/webdav/entities"
 )
 
 const (

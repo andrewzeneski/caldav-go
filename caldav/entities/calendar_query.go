@@ -2,10 +2,11 @@ package entities
 
 import (
 	"encoding/xml"
-	"github.com/taviti/caldav-go/caldav/values"
-	"github.com/taviti/caldav-go/utils"
-	"github.com/taviti/caldav-go/webdav/entities"
 	"time"
+
+	"github.com/andrewzeneski/caldav-go/caldav/values"
+	"github.com/andrewzeneski/caldav-go/utils"
+	"github.com/andrewzeneski/caldav-go/webdav/entities"
 )
 
 // a CalDAV calendar query object

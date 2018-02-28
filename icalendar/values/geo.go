@@ -2,10 +2,11 @@ package values
 
 import (
 	"fmt"
-	"github.com/taviti/caldav-go/utils"
 	"log"
 	"strconv"
 	"strings"
+
+	"github.com/andrewzeneski/caldav-go/utils"
 )
 
 var _ = log.Print

@@ -1,12 +1,13 @@
 package http
 
 import (
-	"github.com/taviti/caldav-go/utils"
 	"io"
 	"log"
 	"net/url"
 	spath "path"
 	"strings"
+
+	"github.com/andrewzeneski/caldav-go/utils"
 )
 
 var _ = log.Print

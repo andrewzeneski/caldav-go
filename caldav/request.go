@@ -2,14 +2,15 @@ package caldav
 
 import (
 	"bytes"
-	"github.com/taviti/caldav-go/http"
-	"github.com/taviti/caldav-go/icalendar"
-	"github.com/taviti/caldav-go/utils"
-	"github.com/taviti/caldav-go/webdav"
 	"io"
 	"io/ioutil"
 	"log"
 	"strings"
+
+	"github.com/andrewzeneski/caldav-go/http"
+	"github.com/andrewzeneski/caldav-go/icalendar"
+	"github.com/andrewzeneski/caldav-go/utils"
+	"github.com/andrewzeneski/caldav-go/webdav"
 )
 
 var _ = log.Print
